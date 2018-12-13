@@ -1,0 +1,19 @@
+{
+    "name": "davidzoli/khbankpayment",
+    "description": "PHP class for K&H Bank payment integration",
+    "authors": [
+        {
+            "name": "Zoltan David",
+            "email": "zoli.david@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "KHbank": "src/"
+        }
+    }
+}
